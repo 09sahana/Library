@@ -18,7 +18,7 @@ const Home = () => {
       <div className="relative flex flex-col items-center justify-center min-h-[85vh] text-center px-4">
         <div className="z-10 p-4 md:p-8 max-w-4xl mx-auto">
           <div className="inline-flex items-center justify-center px-4 py-1.5 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-indigo-300 font-semibold text-sm mb-6 tracking-wide uppercase">
-            AI LIBRARY MANAGEMENT SYSTEM
+            AI LIBRARY MANAGEMENT SYSTEM version 2
           </div>
           
           <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6 tracking-tight leading-tight">
