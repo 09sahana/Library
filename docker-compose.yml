@@ -1,0 +1,19 @@
+services:
+
+  backend:
+    build: ./backend
+    container_name: library-backend
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./database:/database
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    container_name: library-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
