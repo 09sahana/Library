@@ -22,7 +22,7 @@ const Home = () => {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6 tracking-tight leading-tight">
-            Smart Library Management with <br className="hidden md:block"/> AI-Powered Book Recommendations
+            Smart Library Management with version 2 <br className="hidden md:block"/> AI-Powered Book Recommendations
           </h1>
           
           <p className="text-lg md:text-xl text-slate-200 mb-4 max-w-3xl mx-auto leading-relaxed font-medium">
